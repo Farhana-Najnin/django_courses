@@ -13,7 +13,12 @@ urlpatterns = [
     # include must dite hobe-->app er under e separate urls separate huge function kaj korate cai
     # jotogula app toiri korbo sobgular under e urls thakuk caile janai dite hobe include dia
     path("first_app/", include("first_app.urls")),
+     # second app connection
+    # path("second_app/", include("second_app.urls")),
+
 # from . import views--->avabe import korle nicer moto likhe dite hobe ...r contact er last e \ must dite hobe
     path('contact/',views.contact),
+   
+
     
 ]
